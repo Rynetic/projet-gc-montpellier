@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "leaflet": "^1.9.4",
+    "nuxt": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.19"
+  }
+}
